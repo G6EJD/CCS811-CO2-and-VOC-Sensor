@@ -49,14 +49,4 @@ void loop() {
   delay(500);
 }
 
-void Sensor_ON(){
-  pinMode(A3,OUTPUT);
-  digitalWrite(A3, LOW);  
-}
-
-void Sensor_OFF(){
-  pinMode(A3,OUTPUT);
-  digitalWrite(A3, HIGH);  
-}
-
 
