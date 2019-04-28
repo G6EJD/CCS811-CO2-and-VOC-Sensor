@@ -24,7 +24,6 @@ void setup() {
   Serial.begin(115200);
   
   Serial.println("CCS811 Reading CO2 and VOC");
-  Sensor_ON();
   if(!ccs.begin()){
     Serial.println("Failed to start sensor! Please check your wiring.");
     while(1);
